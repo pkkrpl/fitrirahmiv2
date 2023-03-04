@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Fri</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- <link rel="stylesheet" href="css/firstsection.css" />
+    <link rel="stylesheet" href="css/secondsection.css" />
+    <link rel="stylesheet" href="css/thirdsection.css" />
+    <link rel="stylesheet" href="css/fourthsection.css" />
+    <link rel="stylesheet" href="css/fifthsection.css" />
+    <link rel="stylesheet" href="css/sixsection.css" />
+    <link rel="stylesheet" href="css/footer.css" /> -->
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav style="width: 100vw" class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container-fluid">
+        <a class="nav1 navbar-brand fw-normal" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-house-check me-2 me-md-2 mb-md-2 mb-2" viewBox="0 0 16 16">
+            <path
+              d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"
+            />
+            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514Z" />
+          </svg>
+          <strong class="bold"><span style="color: #b62d5b">CAKE.</span>F3</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-md-2" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2 mx-md-4">
+              <a class="nav-link ps-2 ps-md-0 my-1 m-md-0 active text-light" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link ps-2 ps-md-0 my-1 m-md-0" href="#Populer"> Populer</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link ps-2 ps-md-0 my-1 m-md-0" href="#About"> About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link ps-2 ps-md-0 my-1 m-md-0" href="#Produk"> Product</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link ps-2 ps-md-0 my-1 m-md-0" href="#Customer"> Customer </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link ps-2 ps-md-0 my-1 m-md-0" href="#Older"> Older </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link ps-2 ps-md-0 my-1 m-md-0" href="#Contak"> Contact </a>
+            </li>
+            <li class="nav-item mx-2 d-flex d-md-none">
+              <a class="nav-link" href="#Contak">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="icon bi bi-heart-fill ms-5" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg>
+              </a>
+              <a class="nav-link" href="#Contak">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="icon bi bi-cart-fill ms-3" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                  />
+                </svg>
+              </a>
+              <a class="nav-link" href="#Contak">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="icon bi bi-person-fill ms-3 me-5" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                </svg>
+              </a>
+            </li>
+
+            <ul class="navbar-nav mt-md-2 ms-md-5 d-none d-md-flex">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="icon bi bi-heart-fill ms-5" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg>
+              </li>
+
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="icon bi bi-cart-fill ms-3" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                  />
+                </svg>
+              </li>
+
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="icon bi bi-person-fill ms-3 me-5" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                </svg>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- awal Home-->
+    <section class="firstsection" id="Home">
+      <div class="container-fluid d-grid kontenUtama">
+        <div class="row row-pertama">
+          <div class="col-12 col-md-6">
+            <div class="textgroup">
+              <h1 class="display-3 fw-bold">
+                Delicious <span style="color: #b62d5b">Cake</span> <br />
+                For Everyone
+              </h1>
+              <p style="width: 80%" class="h6 mt-3 text-secondary">
+                Kami menyediakan berbagai bentuk cake yang pastinya enak dan menarik,<br />
+                terutama nih buat kamu yang ingin mengadakan pesta <br />
+                seperti pesta ulang tahun, dijamin kamu akan puas dengan cake yang kami sediakan.
+              </p>
+              <a href="#Produk" class="btn btn-dark rounded-pill p-md-2 p-1 m-md-3 m-2"> <strong class="d-inline-block pe-2 pe-md-4 ps-2 ps-md-4"> Lihat Menu </strong></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="rightImage d-none d-md-block">
+              <img src="img/cakeee.jpg" class="cakeehero" />
+            </div>
+            <img src="img/bg5.png" class="d-none d-md-block subhero" />
+            <div class="image d-block d-md-none">
+              <img src="img/bgcake1.png" class="gambar1" />
+              <img src="img/bg5.png" class="gambar2" />
+            </div>
+
+            <!-- <img src="img/Strawberry Lemonade Cake.jpg" style="margin-top: -290px; border: solid #fcdfe8" class="rounded-circle ms-5" /> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir Home -->
+
+    <!--Awal populer -->
+    <section class="secondsection" id="Populer">
+      <div class="container">
+        <div class="text mt-4 mb-4 display-4 fw-bold text-center pt-2"><span style="color: #b62d5b">Populer </span> Cake</div>
+      </div>
+      <div class="container d-grid justify-content-center">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card card-pertama">
+              <img src="img/cake7.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Fruity Cake</h3>
+                <h4>Rp.47.000 <span class="fw-lighter text-decoration-line-through"> Rp.60.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- todo======================= -->
+          <div class="col-12 col-md-4">
+            <div class="card card-pertama">
+              <img src="img/cake6.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Crown cake</h3>
+                <h4>Rp.65.000 <span class="fw-lighter text-decoration-line-through"> Rp.77.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card card-pertama">
+              <img src="img/cake3.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Buttercream Cake</h3>
+                <h4>Rp.62.000 <span class="fw-lighter text-decoration-line-through"> Rp.81.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir Populer-->
+
+    <!-- awal about -->
+    <section class="thirdsection" id="About">
+      <div class="container-fluid p-0">
+        <div class="about-1 mt-4 mt-md-4 pt-4 pt-md-4">
+          <h1 class="fw-bold text-center display-5"><span style="color: #b62d5b"> Tentang</span> Kami</h1>
+          <div class="d-grid justify-content-center">
+            <div class="row row-dua">
+              <div class="col-12 col-md-6">
+                <img src="img/cake9.jpg" class="rounded-3 mt-4 img-thumbnail" />
+              </div>
+              <div class="col-12 col-md-6">
+                <h4 class="about-3 text-center m-0 mt-3 fw-bold">Cake Delicious</h4>
+                <br />
+                <p class="text w-100">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio non, corrupti laudantium sunt cupiditate vitae mollitia veritatis nihil perferendis nostrum consequatur inventore magni iste quod consectetur
+                  provident est velit! Ratione excepturi sequi ut expedita nesciunt sunt odio error, ab vel non cumque dolor quaerat iste unde commodi doloribus facere?
+                </p>
+                <p class="w-100 d-none d-md-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex deserunt quidem veritatis culpa sed officia eos minus! Sunt voluptates, a doloremque veniam id maiores recusandae molestias aspernatur nisi amet, inventore
+                  excepturi fugit et quas non rerum ratione facere. Ipsam, at atque temporibus soluta velit neque. Nesciunt fuga necessitatibus fugit libero aut dolores illum cupiditate
+                </p>
+
+                <div class="row row-tiga">
+                  <div class="col-md-4">
+                    <div class="about-2 rounded text-center"><img src="img/hargaterjangkau.png" class="img2 m-2" /> Harga Terjangkau</div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="about-2 rounded text-center"><img src="img/gratisongkir.png" class="img1 m-1" /> Gratis Ongkir</div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="about-2 rounded text-center"><img src="img/pengiriman.png" class="img2 m-2" /> Pengiriman aman</div>
+                  </div>
+                </div>
+                <button class="btn mt-3 text-light p-2">Lihat lebih lanjut</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about-->
+
+    <!-- awal Produk-->
+    <section class="fourthsection" id="Produk">
+      <div class="container">
+        <div class="produk-1 m-md-5 m-4 display-4 fw-bold text-center pt-2"><span style="color: #b62d5b"> Produk </span> Kami</div>
+      </div>
+
+      <div class="container d-grid justify-content-center">
+        <div class="row row-empat">
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/cake12.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Redvelved Cake</h3>
+                <h4>Rp.72.000 <span class="fw-lighter text-decoration-line-through"> Rp.85.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/cake4.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Laces Cake</h3>
+                <h4>Rp.40.000 <span class="fw-lighter text-decoration-line-through"> Rp.67.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/cakee2.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Divin Cake</h3>
+                <h4>Rp.53.000 <span class="fw-lighter text-decoration-line-through"> Rp.79.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container d-grid justify-content-center mt-2">
+        <div class="row row-empat">
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/p5.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Pink Macaron Cake</h3>
+                <h4>Rp.57.000 <span class="fw-lighter text-decoration-line-through"> Rp.75.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/p2.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">CheeseCake</h3>
+                <h4>Rp.47.000 <span class="fw-lighter text-decoration-line-through"> Rp.68.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/p6.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Fresa Cake</h3>
+                <h4>Rp.50.000 <span class="fw-lighter text-decoration-line-through"> Rp.60.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container d-grid justify-content-center mt-2">
+        <div class="row row-empat">
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/cake14.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Southem Strawberry</h3>
+                <h4>Rp.58.000 <span class="fw-lighter text-decoration-line-through"> Rp.70.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/p4.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Charlotte Cake</h3>
+                <h4>Rp.62.000 <span class="fw-lighter text-decoration-line-through"> Rp.80.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card kartu">
+              <div class="overflow-hidden">
+                <img src="img/p7.jpg" class="card-img-top perbesarGambar" />
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-text fw-bold">Mille Feuille Cake</h3>
+                <h4>Rp.60.000 <span class="fw-lighter text-decoration-line-through"> Rp.76.000</span></h4>
+                <button class="btn text-light">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir produk -->
+
+    <!-- awal komentar/ customer-->
+    <section class="fifthsection" id="Customer">
+      <div class="container-fluid p-0">
+        <div class="komentar-1 mt-4 pt-4">
+          <h1 class="fw-bold text-center display-5">Customer <span style="color: #b62d5b"> Kami </span></h1>
+
+          <div class="container mt-5">
+            <div class="row row-lima">
+              <div class="col-12 col-md-4">
+                <div class="card shadow-sm">
+                  <div class="card-img">
+                    <img src="img/pic-3.png" alt="" class="rounded-circle w-25 mt-3" />
+                  </div>
+                  <div class="text-center">
+                    <h5 class="mt-2 fw-bold">Syaid Alfarishi</h5>
+                    <!--  -->
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+
+                    <img src="img/bintang2.svg" alt="" />
+                    <!--  -->
+                    <p class="paragraf">Happy Customer</p>
+                  </div>
+                  <div class="card-text text-center">
+                    <p class="ukuran">Ini cake terenak dan terbaik yang pernah saya coba, cakenya sangat lembut dan manis dan ini benar-benar sesuai dengan selera saya, pengemasanya juga baik dan cakenya sampai dengan aman.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card shadow-sm big">
+                  <div class="card-img">
+                    <img src="img/pic-2.png" alt="" class="rounded-circle w-25 mt-3" />
+                  </div>
+                  <div class="text-center">
+                    <h5 class="mt-2 fw-bold">Fitri Rahmi Imami</h5>
+                    <!--  -->
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+
+                    <img src="img/bintang2.svg" alt="" />
+                    <!--  -->
+                    <p class="paragraf">Happy Customer</p>
+                  </div>
+                  <div class="card-text text-center">
+                    <p class="ukuran">Pengiriman cakenya cepat dan diterima dalam keadaan sangat baik. Rasanya pas banget tidak terlalu manis dan benar-benar lembut, dan cakenya sangat sesuai dengan apa yang saya inginkan</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card shadow-sm">
+                  <div class="card-img">
+                    <img src="img/pic-1.png" alt="" class="rounded-circle w-25 mt-3" />
+                  </div>
+                  <div class="text-center">
+                    <h5 class="mt-2 fw-bold">Afdat Adzihan</h5>
+                    <!--  -->
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+                    <img src="img/bintang.svg" alt="" />
+
+                    <img src="img/bintang2.svg" alt="" />
+                    <!--  -->
+                    <p class="paragraf">Happy Customer</p>
+                  </div>
+                  <div class="card-text text-center">
+                    <p class="ukuran">Cakenya enak banget, dan harganya sangat terjangkau dan saya rasa terlalu murah dedngan kualitas sebaik ini, semoga sukses terus dengan kualitas dan pelayanan yang baik.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir komentar -->
+
+    <!-- awal older -->
+    <section class="sixsection" id="Older">
+      <div class="container">
+        <h1 class="older-1 fw-bold text-center display-6 mt-md-5 mt-5 p-3">Layanan <span style="color: #b62d5b"> Cake F3 </span></h1>
+      </div>
+      <div class="container-fluid p-0">
+        <div class="older-2 mt-md-5 mt-3">
+          <div class="container">
+            <div class="row row-enam">
+              <div class="col-12 col-md-4 mt-md-5 mt-3">
+                <div class="size row bg-white align-items-center p-3 ps-1 pe-1">
+                  <div class="col-4">
+                    <img src="img/ambilditoko.png" class="imgtoko" />
+                  </div>
+                  <div class="col-8">
+                    <h5>Pengambilan Di Toko</h5>
+                    <p class="ukuran">Lorem ipsum dolor sit amet sim consectetur adipisicing elit. Distinctio, at.</p>
+                    <button class="btn">Kunjungi Toko</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mt-md-5 mt-3">
+                <div class="row bg-white align-items-center p-3 ps-1 pe-1 ms-md-1">
+                  <div class="col-4">
+                    <img src="img/pengirimanindo.png" class="imgkirim" />
+                  </div>
+                  <div class="col-8">
+                    <h5>Pengiriman Seluruh Indonesia</h5>
+                    <p class="ukuran">Lorem ipsum dolor sit amet sim consectetur adipisicing elit. Distinctio, at.</p>
+                    <button class="btn">Pesan Sekarang</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mt-md-5 mt-3">
+                <div class="row bg-white align-items-center p-3 ps-1 pe-1 ms-md-1">
+                  <div class="col-4">
+                    <img src="img/layananantar.png" class="imgkirim" />
+                  </div>
+                  <div class="col-8">
+                    <h5>Layanan Antar</h5>
+                    <p class="ukuran">Lorem ipsum dolor sit amet sim consectetur adipisicing elit. Distinctio, at.</p>
+                    <button class="btn">Info Pengiriman</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir older -->
+
+    <!-- awal contact -->
+    <footer class="footer" id="Contak">
+      <div class="container-fluid p-0">
+        <div class="contact-1 mt-5">
+          <div class="container">
+            <div class="row pt-md-5 pt-3 ms-md-5">
+              <div class="col-12 col-md-3">
+                <div class="contact">
+                  <h3>Locations</h3>
+                  <a href="#">Sumatra</a>
+                  <a href="#">Jawa</a>
+                  <a href="#">Kalimantan</a>
+                  <a href="#">Sulawesi</a>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="contact">
+                  <h3><a href="#Home">Home</a></h3>
+                  <a href="#Populer">Populer</a>
+                  <a href="#Produk">Product</a>
+                  <a href="#Customer">Customer</a>
+                  <a href="#Older">Older</a>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="contact">
+                  <h3>Follow Us</h3>
+                  <a href="https://www.instagram.com/ffitri_rahmi/">instagram || @ffitri_rahmi</a>
+                  <a href="#">Fb || fitrirahmi</a>
+                  <a href="#">Twiter || fitrirahmi</a>
+                  <a href="#">Youtube || fitrirahmi</a>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <div class="contact">
+                  <h3>Contact Info</h3>
+                  <a href="#"><img src="img/sosmed.png" class="w-75" /></a>
+                  <a href="#"><img src="img/pembayaran.png" class="w-75" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-capitalize text-center pt-4">
+            Copyrigth ©2023 By<span class="h5" style="color: #b62d5b">
+              <br class="d-sm-block d-md-none" />
+              fitri rahmi imami 💕</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir contact -->
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+<!-- cara penggunakan grid yang align content/ justify pada gambar dan div -->

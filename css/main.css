@@ -1,0 +1,353 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  /* height: 6000px; */
+
+  overflow-x: hidden;
+}
+nav ul li a {
+  border-radius: 1rem;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: #d66b8f;
+}
+
+.kartu:hover .perbesarGambar {
+  transform: scale(1.1);
+  transition: 200ms;
+}
+
+.container-fluid .row .contact a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+li .icon:hover {
+  color: #b62d5b;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #b62d5b;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #db5882;
+  color: white;
+}
+
+/*  */
+
+/* NAVBAR */
+nav .navbar {
+  font-size: 30px;
+}
+
+strong .bold {
+  font-size: 25px;
+}
+.collapse li a {
+  font-size: 20px;
+}
+/*     */
+
+/* 1 (Home)  */
+.firstsection .kontenUtama {
+  margin-top: 47px;
+}
+
+.row-pertama {
+  background-color: rgb(252, 222, 232);
+  width: 100vw;
+  height: 600px;
+}
+.textgroup {
+  margin-top: 80px;
+  margin-left: 25px;
+}
+
+.rightImage {
+  width: 200px;
+  height: 200px;
+  background-color: #dbd8d8;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: -80px;
+  overflow: hidden;
+}
+
+.cakeehero {
+  margin-left: -12px;
+  width: 200px;
+}
+.subhero {
+  margin-top: -20rem;
+}
+.gambar1 {
+  width: 200px;
+  height: 200px;
+  margin-top: -40px;
+  margin-left: 100px;
+}
+.gambar2 {
+  width: 200px;
+  height: 210px;
+  margin-top: -150px;
+  margin-left: 50px;
+}
+.row-pertama .textgroup .btn {
+  background-color: black;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.row-pertama .textgroup .btn:hover {
+  background-color: #b62d5b;
+}
+
+/*  */
+
+/* 2 (populer)   */
+.secondsection .container .text {
+  height: 60px;
+  background-color: rgb(250, 239, 243);
+}
+
+.container .row .card-pertama {
+  width: 300px;
+  border-color: #dba5b7;
+}
+
+.card-pertama .card-text {
+  color: #b62d5b;
+}
+
+/*  */
+
+/* 3 (ABOUT)   */
+.thirdsection .container-fluid .about-1 {
+  background-color: rgb(248, 225, 234);
+  height: 830px;
+}
+
+.row-dua {
+  width: 300px;
+}
+
+.row-dua p {
+  font-size: 12px;
+}
+
+.row-tiga .about-2 {
+  background-color: #cfc6c9;
+  margin-bottom: 2px;
+}
+
+.about-2 .img1 {
+  width: 70px;
+}
+.about-2 .img2 {
+  width: 30px;
+}
+
+/* .row-dua .btn {
+  background-color: #b62d5b;
+} */
+/*  */
+
+/* 4 (PRODUK)   */
+.fourthsection .container .produk-1 {
+  height: 60px;
+  width: 250px;
+  background-color: rgb(248, 225, 234);
+}
+
+.row-empat .card {
+  width: 290px;
+  border-color: #dba5b7;
+}
+
+.row-empat .card-text {
+  color: #b62d5b;
+}
+
+/* .row-empat .btn {
+  background-color: #b62d5b;
+} */
+
+/*  */
+
+/* 5 (KOMENTAR)     */
+.fifthsection .container-fluid .komentar-1 {
+  background-color: rgb(248, 225, 234);
+  height: 1015px;
+}
+
+.row-lima .card {
+  border-color: #dba5b7;
+}
+
+.row-lima .card-img img {
+  margin-left: 110px;
+}
+
+.row-lima .text-center .paragraf {
+  color: #999;
+}
+
+/*  */
+
+/* 6 (OLDER)       */
+.sixsection .container .older-1 {
+  background-color: rgb(248, 233, 238);
+}
+
+.container-fluid .older-2 {
+  background-color: rgb(238, 238, 238);
+  height: 700px;
+}
+
+.older-2 img {
+  width: 120px;
+}
+
+/* .older-2 .row {
+  width: 280px;
+  margin-left: -2px;
+} */
+.ukuran {
+  font-size: 13px;
+}
+
+/* .row-enam .btn {
+  background-color: #b62d5b;
+  color: white;
+} */
+/*  */
+
+/* 7 (CONTACT/FOOTER)   */
+.footer .contact-1 {
+  background-color: rgb(248, 225, 234);
+  height: 660px;
+}
+.footer h3 {
+  font-weight: bold;
+}
+
+/*  */
+
+/* responsif */
+@media screen and (min-width: 768px) {
+  section {
+    margin-bottom: 80px;
+  }
+
+  /* NAVBAR */
+
+  nav .navbar {
+    font-size: 30px;
+  }
+  .navbar .nav1 {
+    margin-left: 130px;
+  }
+  strong .bold {
+    font-size: 25px;
+  }
+  .collapse li a {
+    font-size: 20px;
+  }
+  /*     */
+
+  /* HOME */
+  .row-pertama {
+    height: 730px;
+  }
+  .textgroup {
+    margin-top: 100px;
+    margin-left: 220px;
+  }
+  .rightImage {
+    width: 700px;
+    height: 700px;
+    margin-left: 300px;
+    margin-top: -100px;
+    overflow: hidden;
+  }
+  .cakeehero {
+    margin-top: 130px;
+    width: 530px;
+  }
+  .row-pertama .textgroup .btn {
+    font-size: 20px;
+  }
+
+  /* POPULER */
+  .secondsection .container .card {
+    margin-top: 30px;
+  }
+  .secondsection .container .text {
+    height: 90px;
+  }
+  .container .row .card-pertama {
+    width: 368px;
+    border-color: #dba5b7;
+  }
+
+  /* ABOUT */
+  .thirdsection .container-fluid .about-1 {
+    height: 650px;
+  }
+  .row-dua {
+    width: 1200px;
+  }
+  .thirdsection .about-3 {
+    font-size: 40px;
+  }
+  .row-dua p {
+    font-size: 15px;
+  }
+  /*  */
+
+  /* PRODUK */
+  .fourthsection .container .produk-1 {
+    height: 80px;
+    width: 1017px;
+  }
+  .row-empat .card {
+    width: 365px;
+  }
+
+  /* KOMENTAR */
+  .fifthsection .container-fluid .komentar-1 {
+    height: 560px;
+  }
+  .fifthsection .big {
+    transform: scale(1.1);
+  }
+  .row-lima .card-img img {
+    margin-left: 130px;
+  }
+
+  /* OLDER */
+  .container-fluid .older-2 {
+    height: 340px;
+  }
+  .sixsection .container .older-1 {
+    background-color: rgb(248, 233, 238);
+  }
+
+  /*  */
+
+  /* footer */
+  .footer .contact-1 {
+    height: 250px;
+  }
+}
